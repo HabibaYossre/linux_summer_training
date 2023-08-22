@@ -22,7 +22,6 @@ chmod 600 private_file.txt
 chmod 750 executable_script.sh
 --------------------step 4---------------------
 sleep 1000 &
-kill 5215
 kill -s KILL 5215
 ps
 sudo apt install vim
